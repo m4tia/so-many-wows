@@ -4,19 +4,39 @@ body {
     background-color: bisque;
 }
 
+a {
+color: darkgray;
+}
+img {
+    max-width: 100%;
+}
+
+
+
 /* HEADING & TYPOGRAPHY */
 
 h1 {
-    background-color: darkkhaki;
-    color: darksalmon;
+    background-color: brown;
+    color: lightgoldenrodyellow;
 }
+
+h2 {
+    color: darkcyan;
+    font-size: 22px;
+}
+
+
 
 /* LAYOUTS */
 .layout-wide {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+
+    padding: 20px;
     }
+
+
 
     /* HEADER & MAIN & FOOTER */
 
@@ -25,10 +45,14 @@ header {
 }
 
 main {
-    background-color: cyan; 
+ 
 }
 
+
+
 /* NAVIGATION */
+
+
 
 /* MODULES */
 
