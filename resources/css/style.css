@@ -1,4 +1,5 @@
 /* GLOBAL DEFAULTS */
+@import 'https://necolas.github.io/normalize.css/8.0.1/normalize.css';
 
 body {
     background-color: bisque;
@@ -7,7 +8,8 @@ body {
 a {
 color: darkgray;
 }
-img {
+img,
+iframe {
     max-width: 100%;
 }
 
@@ -55,8 +57,19 @@ main {
 
 
 /* MODULES */
+.news-component {
+    background-color: darkgray;
+    padding: 20px;
+}
 
 
+@media screen and (min-width: 800px) {
 
+    .news-component {
+        background-color: darkorange;
 
-
+        display: grid;
+        grid-template-columns:50% 50%;
+        grid-gap; 20px;
+    }
+}
