@@ -21,8 +21,14 @@ body {
 }
 
 a {
-font-weight: bold;
+    color: lightcoral;
+    font-weight: bold;
 }
+
+a:hover {
+    color: lightgrey;
+}
+
 img,
 iframe {
     max-width: 100%;
