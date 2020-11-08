@@ -3,18 +3,25 @@
 
 @import url("https://use.typekit.net/bqk8ytr.css");
 
+@import url("https://use.typekit.net/bqk8ytr.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: white;
+    font-family: Poppins;
+    font-weight: 300px;
+    font-size: 16px;
+
 
     line-height: 1.8;
 }
 
 a {
-color: darkgray;
+font-weight: bold;
 }
 img,
 iframe {
@@ -33,22 +40,25 @@ h5 {
     font-family: neue-haas-unica, sans-serif;
     color: black;
     font-weight: 800;
-    text-transform: uppercase;
 
 }
 
 h1 {
-    background-color: white;
     color: black;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 h2 {
     color: black;
-    font-size: 22px;
+    font-size: 45px;
+
 }
 
-
+h3 {
+    color: darkgrey;
+    font-size: 25px ;
+    font-style: italic;
+}
 
 /* LAYOUTS */
 .layout-wide {
@@ -79,7 +89,6 @@ main {
 
 /* MODULES */
 .news-component {
-    background-color: darkgray;
     padding: 20px;
 }
 
@@ -87,7 +96,7 @@ main {
 @media screen and (min-width: 800px) {
 
     .news-component {
-        background-color: darkorange;
+        background-color: gainsboro;
 
         display: grid;
         grid-template-columns:50% 50%;
