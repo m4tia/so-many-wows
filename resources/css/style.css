@@ -1,8 +1,16 @@
 /* GLOBAL DEFAULTS */
 @import 'https://necolas.github.io/normalize.css/8.0.1/normalize.css';
 
+@import url("https://use.typekit.net/bqk8ytr.css");
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: bisque;
+    background-color: white;
+
+    line-height: 1.8;
 }
 
 a {
@@ -17,13 +25,26 @@ iframe {
 
 /* HEADING & TYPOGRAPHY */
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: neue-haas-unica, sans-serif;
+    color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
 h1 {
-    background-color: brown;
-    color: lightgoldenrodyellow;
+    background-color: white;
+    color: black;
+    font-size: 50px;
 }
 
 h2 {
-    color: darkcyan;
+    color: black;
     font-size: 22px;
 }
 
@@ -43,7 +64,7 @@ h2 {
     /* HEADER & MAIN & FOOTER */
 
 header {
-    background-color: cornsilk;
+    background-color: white;
 }
 
 main {
