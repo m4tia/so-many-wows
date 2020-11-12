@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-    color: lightgrey;
+    color: rgb(174, 90, 90);
 }
 
 img,
@@ -49,18 +49,18 @@ h5 {
 }
 
 h1 {
-    color: black;
+    color: rgb(50, 50, 50);
     font-size: 60px;
 }
 
 h2 {
-    color: black;
+    color: rgb(50, 50, 50);
     font-size: 45px;
 
 }
 
 h3 {
-    color: darkgrey;
+    color: rgb(96, 96, 96);
     font-size: 25px ;
     font-style: italic;
 }
