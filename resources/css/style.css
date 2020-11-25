@@ -16,7 +16,7 @@ body {
     font-weight: 300px;
     font-size: 16px;
     line-height: 1.8;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 a {
@@ -79,7 +79,7 @@ h3 {
     /* HEADER & MAIN & FOOTER */
 
 header {
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .logo-wrapper img {
@@ -109,6 +109,11 @@ header .layout-wide {
     grid-template-columns: 3fr 7fr;
 }
 
+footer {
+    background-color: gainsboro;
+    text-align: center;
+}
+
 main {
  
 }
@@ -116,7 +121,32 @@ main {
 
 
 /* NAVIGATION */
+.navigation {
+    background-color: whitesmoke;
+}
 
+.nav-inner ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-inner li {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav-inner a {
+    text-decoration: none;
+
+}
+
+@media screen and (min-width: 800px) {
+
+    .nav-inner ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
 
 
 /* MODULES */
