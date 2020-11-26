@@ -20,12 +20,12 @@ body {
 }
 
 a {
-    color: lightcoral;
+    color: #DB1ECF;
     font-weight: bold;
 }
 
 a:hover {
-    color: rgb(174, 90, 90);
+    color: #1FE9EB;
 }
 
 img,
@@ -91,7 +91,6 @@ max-width: 100px;
     font-weight: bold;
     font-family: neue-haas-unica, sans-serif;
     text-align: right;
-    padding-top: 14px;
 }
 
 @media screen and (min-width: 500px) {
