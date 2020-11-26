@@ -149,6 +149,10 @@ main {
     .nav-inner.open {
         max-height: 100vh;
     }
+
+    .nav-inner {
+        padding-bottom: 0;
+    }
 }
 /* this is for large screen view */
 @media screen and (min-width: 800px) {
@@ -159,7 +163,7 @@ main {
 
     .nav-inner ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 }
 
